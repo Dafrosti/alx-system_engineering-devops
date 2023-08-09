@@ -1,2 +1,2 @@
 #!/bin/bash
-will read up
+awk 'NR%2==1' "$1"
